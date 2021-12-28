@@ -97,7 +97,6 @@ PKGS=(
 'lolcat'
 'python-setuptools'
 'rust'
-'go'
 'zsh'
 'zsh-completions'
 'dkms'
@@ -115,7 +114,7 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
-    sudo pacman -S "$PKG" --needed
+    yes | sudo pacman -S "$PKG" --needed
 done
 
 echo "
@@ -173,8 +172,6 @@ PKGS=(
 'asp'
 'zenpower3-dkms'
 'konsave'
-'ananicy-cpp'
-'ananicy-rules-git'
 )
 
 for PKG in "${PKGS[@]}"; do
@@ -192,8 +189,6 @@ sudo bash -c 'sudo echo -e "\n# replaced with zenpower\nblacklist k10temp" >> /e
 sudo modprobe zenpower
 sensors
 sleep 3
-sudo systemctl enable ananicy-cpp
-sudo systemctl start ananicy-cpp
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
@@ -203,10 +198,12 @@ echo "
 # Installing optimized kernel
 ###############################################################################
 "
-sudo pacman -S linux-cachyos-cacule-rdb-lto linux-cachyos-cacule-rdb-lto-headers --noconfirm
+sudo pacman -S linux-cachyos-bore-lto linux-cachyos-bore-lto-headers --noconfirm
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sleep 2
-
+konsave -i $HOME/L/kde/lulle.knsv
+sleep 1
+konsave -a lulle
 echo "
 ###############################################################################
 # Cloning essential repos
