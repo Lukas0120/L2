@@ -1,0 +1,13 @@
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+[theme]
+name = adaptive
+background = #21212b2b3030
+foreground = #c4c4c7c7c5c5
+textboxbg = #262630303535
+border = #4d4dd0d0e1e1
+padding = 25
+width = 0.5
+height = 0.9
+

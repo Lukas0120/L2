@@ -1,0 +1,12 @@
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+[theme]
+name = archcraft
+background = #1E1E21212828
+foreground = #ABABB2B2BFBF
+textboxbg = #232326262D2D
+border = #6262AEAEEFEF
+padding = 25
+width = 0.5
+height = 0.9

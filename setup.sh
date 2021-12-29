@@ -40,8 +40,16 @@ echo "
 "
 
 PKGS=(
+'base-devel'
+'glibc'
+'libgcrypt'
+'lib32-glibc'
+'lib32-gcc-libs'
+'libplacebo+clang'
 'bash+clang'
+'libseccomp+clang'
 'binutils'
+'libxcrypt+clang'
 'elfutils+clang'
 'gcc'
 'gcc-ada'
@@ -50,37 +58,77 @@ PKGS=(
 'gcc-go'
 'gcc-libs'
 'gcc-objc'
+'llvm-multistage'
 'glib2+clang'
+'glib2-docs+clang'
+'musl+clang'
 'gperftools+clang'
+'ncurses+clang'
 'graphite+clang'
-'guile+clang'
 'harfbuzz+clang'
+'guile+clang'
 'harfbuzz-icu+clang'
 'icu+clang'
 'jemalloc+clang'
-'js78+clang'
-'lib32-gcc-libs'
-'lib32-glibc'
-'libclc12+clang'
 'libdrm+clang'
+'libclc12+clang'
 'libelf+clang'
 'libffi+clang'
-'libgcrypt'
-'libplacebo+clang'
-'libseccomp+clang'
-'libxcrypt+clang'
-'llvm-multistage'
-'musl+clang'
-'ncurses+clang'
 'zlib-ng+clang'
 'zstd+clang'
+'js78+clang'
+'makepkg-optimize'
+'zramd'
+'linux-cachyos-bore-lto'
+'linux-cachyos-bore-lto-headers'
+'dkms'
+'lib32-nvidia-utils-tkg'
+'opencl-nvidia-tkg'
+'nvidia-utils-tkg'
+'nvidia-egl-wayland-tkg'
+'nvidia-dkms-tkg'
+'nvidia-settings-tkg'
+'lib32-opencl-nvidia-tkg'
+'xorg-font-util+clang'
+'xorg-mkfontscale+clang'
+'xcompmgr+clang'
+'xorg-fonts-encodings+clang'
+'xorg-util-macros+clang'
+'xorg-xauth+clang'
+'xorg-xkbcomp+clang'
+'xtrans+clang'
+'xorgproto+clang'
+'xorg-setxkbmap+clang'
+'konsole+clang'
+'kwindowsystem+clang'
+'kwin-lowlatency'
+'gtk3+clang'
+'gtk3-demos+clang'
+'gtk3-docs+clang'
+'gtk4+clang'
+'gtk4-demos+clang'
+'plasma-desktop+clang'
+'gtk4-docs+clang'
+'plasma-framework+clang'
+'gtk-update-icon-cache+clang'
+'plasma-integration+clang'
+'plasma-wayland-session+clang'
+'plasma-workspace+clang'
+'qt5-base+clang'
+'qt5-xcb-private-headers+clang'
+'libxcvt+clang'
 'libunwind'
 'libunistring'
-'flex'
 'libxcvt'
-'bison'
 'bc'
 'ccache'
+'pahole'
+'paru'
+'yay'
+'spirv-tools'
+'mesa'
+'ninja'
+'cpio'
 'realvnc-vnc-server'
 'grub-customizer'
 'sublime-text-4'
@@ -99,22 +147,23 @@ PKGS=(
 'rust'
 'zsh'
 'zsh-completions'
-'dkms'
-'paru'
-'yay'
-'spirv-tools'
+'tela-icon-theme'
+'zenpower3-dkms'
+'kvantum'
+'asp'
+'kwin-bismuth-git'
 'mesa'
-'ninja'
-'cpio'
-'uboot-tools'
-'base-devel'
-'nvidia-dkms'
-'nvidia-utils'
+'pamac-aur'
+'p7zip'
+'ark'
+'unarchiver'
+'unrar'
+
 )
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
-    yes | sudo pacman -S "$PKG" --needed
+    sudo pacman -S "$PKG" --needed
 done
 
 echo "
@@ -169,8 +218,6 @@ PKGS=(
 'lightlyshaders-git'
 'papirus-icon-theme'
 'cpu-x'
-'asp'
-'zenpower3-dkms'
 'konsave'
 )
 
@@ -198,7 +245,6 @@ echo "
 # Installing optimized kernel
 ###############################################################################
 "
-sudo pacman -S linux-cachyos-bore-lto linux-cachyos-bore-lto-headers --noconfirm
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sleep 2
 konsave -i $HOME/L/kde/lulle.knsv
@@ -215,11 +261,6 @@ git clone https://github.com/cachyos/linux-cachyos.git
 git clone https://github.com/clangbuiltlinux/tc-build.git
 sleep 2
 cd ~
-cd ~/arch-packages
-./build.sh --install-keys
-cd ~
-cd ~/tc-build
-./build-binutils.py
 
 echo "
 ###############################################################################

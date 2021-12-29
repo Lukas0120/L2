@@ -1,0 +1,12 @@
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+[theme]
+name = typewriter
+background = #e2e2e2e2e2e2
+foreground = #212121212121
+textboxbg = #e2e2e2e2e2e2
+border = #6f6f6f6f6f6f
+padding = 30
+width = 0.6
+height = 0.8

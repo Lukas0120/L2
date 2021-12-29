@@ -1,0 +1,572 @@
+xfsettingsd: no process found
+picom: no process found
+polybar: no process found
+mpd: no process found
+dunst: no process found
+ksuperkey: no process found
+xfce4-power-manager: no process found
+No backlight controller was found, so we could not decide an automatic target. The current command will have no effect. Please use -L to find a target and then specify it with -s.
+
+No backlight controller was found, so we could not decide an automatic target. The current command will have no effect. Please use -L to find a target and then specify it with -s.
+
+
+** (xfce4-power-manager:1303): WARNING **: 01:45:54.475: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1303): WARNING **: 01:45:54.475: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:1303): xfce4-power-manager-WARNING **: 01:45:54.476: Unable to connect to session manager : Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:1303): GLib-GObject-WARNING **: 01:45:54.491: ../glib/gobject/gsignal.c:2614: signal 'Changed' is invalid for instance '0x5578e2205510' of type 'GDBusProxy'
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+polybar|error: module/mpd: Connection refused
+polybar|error: module/song: Connection refused
+
+(xfce4-power-manager:1303): xfce4-power-manager-WARNING **: 01:45:54.516: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:1303): xfce4-power-manager-WARNING **: 01:45:54.521: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+Dec 23 01:45 : exception: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
+polybar|error: Disabling module "battery" (reason: No suitable way to get current charge state)
+polybar|error: tray: Failed to put tray above 0x1c00001 in the stack (XCB_MATCH (8))
+WARNING: No icon found in path: 'keyboard'
+
+** (process:2028): WARNING **: 01:48:17.669: /home/lulle/.config/rofi/config.rasi:5:29: Option: hide-scrollbar is not found.
+
+[ 2021-12-23 01:48:37.618 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:48:37.618 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_SGI_video_sync.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_SGI_swap_control.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Missing GLX extension GLX_OML_sync_control.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Missing GLX extension GLX_MESA_swap_control.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_EXT_swap_control.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_EXT_texture_from_pixmap.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_ARB_create_context.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Found GLX extension GLX_EXT_buffer_age.
+[ 2021-12-23 01:48:37.737 glx_has_extension INFO ] Missing GLX extension GLX_MESA_query_renderer.
+[ 2021-12-23 01:48:37.895 gl_has_extension INFO ] Missing GL extension GL_GREMEDY_string_marker.
+[ 2021-12-23 01:48:37.895 gl_init INFO ] GL vendor is NVIDIA, don't use glFinish
+[ 2021-12-23 01:48:57.447 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:48:57.447 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:48:58.015 gl_has_extension INFO ] Missing GL extension GL_GREMEDY_string_marker.
+[ 2021-12-23 01:48:58.016 gl_init INFO ] GL vendor is NVIDIA, don't use glFinish
+[ 2021-12-23 01:49:18.165 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:49:18.165 reset_enable INFO ] picom is resetting...
+[ 2021-12-23 01:49:18.635 parse_kawase_blur_strength INFO ] blur-strength: 7 [.iter = 3, .offset = 4,250000, .expand = 50]
+[ 2021-12-23 01:49:18.817 gl_has_extension INFO ] Missing GL extension GL_GREMEDY_string_marker.
+[ 2021-12-23 01:49:18.817 gl_init INFO ] GL vendor is NVIDIA, don't use glFinish
+
+(openbox:1255): GLib-CRITICAL **: 01:49:42.240: Source ID 775 was not found when attempting to remove it
+
+(xfce4-appearance-settings:3522): Gtk-WARNING **: 01:50:33.978: Content added to the action area of a dialog using header bars
+
+(xfce4-appearance-settings:3522): Gtk-WARNING **: 01:50:33.978: Content added to the action area of a dialog using header bars
+
+(xfce4-appearance-settings:3522): Gtk-WARNING **: 01:50:34.108: Theme directory places/24 of theme Hack has no size field
+
+
+(xfce4-appearance-settings:3522): Gtk-WARNING **: 01:50:34.108: Theme directory places/24@2x of theme Hack has no size field
+
+
+(xfce4-appearance-settings:3522): Gtk-WARNING **: 01:50:34.108: Theme directory places/24@3x of theme Hack has no size field
+
+ERR: Could not load "image-loading" from icon theme, this indicates a problem with your Gtk/Gtkmm install.
+
+(openbox:1255): GLib-CRITICAL **: 01:52:49.968: Source ID 1974 was not found when attempting to remove it
+
+** (process:6700): WARNING **: 01:53:52.412: /home/lulle/.config/rofi/config.rasi:5:29: Option: hide-scrollbar is not found.
+
+
+** (process:6731): WARNING **: 01:53:59.778: /home/lulle/.config/rofi/config.rasi:5:29: Option: hide-scrollbar is not found.
+
+
+(process:6731): GLib-CRITICAL **: 01:54:11.663: g_string_insert_len: assertion 'len == 0 || val != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.774: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.774: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.774: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.775: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.775: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.775: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.779: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.783: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.783: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.783: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.789: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.789: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.789: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.792: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.792: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.792: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.793: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.793: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.793: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.797: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.801: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.801: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.801: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.806: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.806: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.806: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.809: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.809: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.809: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.810: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.810: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.810: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.849: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.849: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.849: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.851: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.851: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.851: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.857: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.857: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.857: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.858: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.858: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.858: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.862: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.862: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.862: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.863: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.863: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.863: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.871: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.871: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.871: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.873: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.873: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.873: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.877: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.877: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.877: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.878: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.878: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.878: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.881: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.881: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.881: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.882: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.882: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.882: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.890: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.895: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.899: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.899: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.899: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.901: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.901: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.901: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.905: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.905: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.905: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.906: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.906: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.906: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.909: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.909: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.909: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.910: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.910: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.910: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.914: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.914: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.914: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.915: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.915: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.915: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.919: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.923: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.923: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.923: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.924: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.924: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.924: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.928: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.928: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.928: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.929: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.929: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.929: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.933: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.933: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.933: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.934: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.934: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.934: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.938: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.942: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.943: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.943: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.943: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.943: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.943: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.947: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.947: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.947: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.948: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.948: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.948: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.952: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.956: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.956: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.956: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.957: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.957: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.957: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.961: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.966: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.970: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.970: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.970: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.971: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.971: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.971: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.975: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.975: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.975: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.976: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.976: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.976: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.989: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.989: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.989: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.990: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.990: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:11.990: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.005: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.005: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.005: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.006: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.006: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.006: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.018: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.018: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.018: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.019: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.019: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.019: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.026: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.026: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.026: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.027: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.027: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.027: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.030: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.030: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.030: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.031: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.031: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.031: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.034: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.034: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.034: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.035: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.035: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.035: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.038: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.038: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.038: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.039: gdk_pixbuf_calculate_rowstride: assertion 'height > 0' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.039: gdk_pixbuf_fill: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(obconf:6769): GdkPixbuf-CRITICAL **: 01:54:12.039: gdk_pixbuf_copy_area: assertion 'src_pixbuf != NULL' failed
+
+(process:7340): As-WARNING **: 01:56:17.444: Ignoring invalid AppStream file /usr/share/app-info/xmls/extra.xml.gz: Failed to parse /usr/share/app-info/xmls/extra.xml.gz file: Error on line 75175 char 6: <p> already set '
+      In addition to that, it allows to easily generate AppStream data for projects which do not need a more complex data
+      generator like ' and tried to replace with '.
+    '
+
+(pamac-manager:7340): Gdk-CRITICAL **: 01:56:17.760: gdk_window_set_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce-polkit:1302): Gtk-WARNING **: 01:56:21.980: Content added to the action area of a dialog using header bars
+
+(xfce-polkit:1302): Gtk-WARNING **: 01:56:21.980: Content added to the action area of a dialog using header bars
+
+** (process:9476): WARNING **: 01:57:06.551: /home/lulle/.config/rofi/config.rasi:5:29: Option: hide-scrollbar is not found.
+
+xfce4-terminal: error while loading shared libraries: libffi.so.7: cannot open shared object file: No such file or directory
+
+(thunar:1392): Gtk-CRITICAL **: 01:58:19.003: gtk_widget_grab_focus: assertion 'GTK_IS_WIDGET (widget)' failed
+WARNING: No icon found in path: 'dialog-information'
