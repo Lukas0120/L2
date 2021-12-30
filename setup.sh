@@ -148,7 +148,6 @@ PKGS=(
 'zsh'
 'zsh-completions'
 'tela-icon-theme'
-'zenpower3-dkms'
 'kvantum'
 'asp'
 'kwin-bismuth-git'
@@ -231,11 +230,6 @@ echo "
 ###############################################################################
 "
 
-sudo modprobe -r k10temp
-sudo bash -c 'sudo echo -e "\n# replaced with zenpower\nblacklist k10temp" >> /etc/modprobe.d/blacklist.conf'
-sudo modprobe zenpower
-sensors
-sleep 3
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
@@ -260,10 +254,13 @@ git clone https://github.com/Frogging-Family/nvidia-all.git
 git clone https://github.com/cachyos/linux-cachyos.git
 git clone https://github.com/clangbuiltlinux/tc-build.git
 sleep 2
-cd ~
+cd /home/lulle/tc-build
+wget http://lullemannen.com/lullemannen/install.tar.zst
+unzstd install.tar.zst
+tar xvf install.tar
 
 echo "
 ###############################################################################
-# Done - Please Eject Install Media and Reboot
+# Done - export PATH=/home/lulle/tc-build/install/bin:${PATH} #
 ###############################################################################
 "
