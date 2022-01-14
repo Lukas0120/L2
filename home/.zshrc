@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 #source /home/lulle/setenv_AOCC.sh
 #source /home/lulle/amd/aocl/3.1.0/amd-libs.cfg
-#export PATH=/home/lulle/tc-build/install/bin:${PATH}
+export PATH=/home/lulle/tc-build/install/bin:${PATH}
 export CC=clang
 export CXX=clang++
 export CC_LD=lld

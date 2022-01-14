@@ -1,0 +1,59 @@
+[file:///home/lulle/L/etc/makepkg-optimize.conf]
+Bookmarks=
+Checksum=912f8d7fb3bc6fe301bc63a3b88aae8f854b66b0
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,1,13,23,58,30.166
+URL=file:///home/lulle/L/etc/makepkg-optimize.conf
+
+[file:///home/lulle/L/etc/makepkg.conf]
+Bookmarks=
+Checksum=1f77a0c77361e2659233fe9b076664dcccbe7496
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,1,13,23,58,30.166
+URL=file:///home/lulle/L/etc/makepkg.conf
+
+[file:///home/lulle/L/etc/pacman.conf]
+Bookmarks=
+Checksum=ad4d3452aa916a315abb606c1807dd4d767a6a17
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,1,14,1,18,27.489
+URL=file:///home/lulle/L/etc/pacman.conf
+
+[file:///home/lulle/L/home/.zshrc]
+Bookmarks=
+Checksum=6408d6ff0d60016cac3199d49726b52b1d8b1e6a
+Encoding=UTF-8
+Highlighting=Zsh
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Zsh
+Mode Set By User=false
+Time=2022,1,13,23,58,30.166
+URL=file:///home/lulle/L/home/.zshrc
+
+[file:///home/lulle/L/setup.sh]
+Bookmarks=
+Checksum=6426729ceabb2aab150497e5cd5e8cbe701b9081
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2022,1,14,1,18,27.489
+URL=file:///home/lulle/L/setup.sh

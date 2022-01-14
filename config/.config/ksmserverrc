@@ -1,0 +1,25 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=yad
+count=1
+
+[Session: saved at previous logout]
+clientId1=10b86e644f000164209399300000007990012
+clientId2=10b86e644f000164212757000000007990029
+count=2
+discardCommand1[$e]=rm,$HOME/.config/session/konsole_10b86e644f000164209399300000007990012_1642129137_999904
+discardCommand2[$e]=rm,$HOME/.config/session/dolphin_10b86e644f000164212757000000007990029_1642129137_999940
+program1=/usr/bin/konsole
+program2=/usr/bin/dolphin
+restartCommand1=/usr/bin/konsole,-session,10b86e644f000164209399300000007990012_1642129137_999904
+restartCommand2=/usr/bin/dolphin,-session,10b86e644f000164212757000000007990029_1642129137_999940
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=lulle
+userId2=lulle

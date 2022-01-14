@@ -1,0 +1,18 @@
+[CreateDialog]
+LastMimeType=application/x-zstd-compressed-tar
+
+[General]
+Version=201
+ViewPropsTimestamp=2022,1,13,12,8,13.226
+
+[KPropertiesDialog]
+DP-4 Height 3840x2160=711
+DP-4 Width 3840x2160=599
+
+[MainWindow]
+DP-4 Height 3840x2160=1346
+DP-4 Width 3840x2160=1566
+DP-4 XPosition 3840x2160=142
+DP-4 YPosition 3840x2160=255
+MenuBar=Disabled
+ToolBarsMovable=Disabled
