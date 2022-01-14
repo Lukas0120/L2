@@ -69,7 +69,6 @@ PKGS=(
 'rust'
 'zsh'
 'zsh-completions'
-'tela-icon-theme'
 'kvantum'
 'asp'
 'pamac-aur'
@@ -84,12 +83,13 @@ PKGS=(
 'libc++abi'
 'cachyos-settings'
 'cachyos-rate-mirrors'
+'realvnc-vnc-server'
 
 )
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
-    sudo pacman -S "$PKG" --needed
+    sudo pacman -S "$PKG" --needed --noconfirm
 done
 
 echo "
@@ -146,6 +146,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 cp -f ~/L/aliases.zsh ~/.oh-my-zsh/custom/
 sudo cp -f ~/L/home/.* /home/lulle/
 sudo cp -Rf ~/L/config/.config ~/
+sudo cp -f ~/L/local/zsh.profile ~/.local/share/konsole/
 sleep 2
 cd ~
 chsh -s $(which zsh)
@@ -189,7 +190,7 @@ unzstd llvm.tar.zst
 tar xvf llvm.tar
 sleep 3
 cd ~
-cd ~/L/nvidia
+cd ~/L/nvidia-all
 makepkg -si --skipinteg --noconfirm
 
 echo "
