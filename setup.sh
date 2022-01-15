@@ -54,6 +54,7 @@ PKGS=(
 'paru'
 'yay'
 'spirv-tools'
+'spirv-headers'
 'mesa'
 'ninja'
 'cpio'
@@ -89,7 +90,7 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
-    sudo pacman -S "$PKG" --needed --noconfirm
+    yes | sudo pacman -S "$PKG" --needed
 done
 
 echo "
@@ -144,12 +145,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 cp -f ~/L/aliases.zsh ~/.oh-my-zsh/custom/
-sudo cp -f ~/L/home/.* /home/lulle/
+sudo cp -f ~/L/home/.p10k.zsh /home/lulle/
+sudo cp -f ~/L/home/.zshrc /home/lulle/
 sudo cp -Rf ~/L/config/.config ~/
 sudo cp -f ~/L/local/zsh.profile ~/.local/share/konsole/
 sleep 2
 cd ~
-chsh -s $(which zsh)
+#chsh -s $(which zsh)
 
 
 
@@ -175,6 +177,17 @@ sudo timedatectl --no-ask-password set-timezone Europe/Stockholm
 sudo timedatectl --no-ask-password set-ntp 1
 sudo localectl --no-ask-password set-locale LANG="en_US.UTF-8" LC_TIME="en_US.UTF-8"
 
+
+echo "
+###############################################################################
+# Configuring Kernel
+###############################################################################
+"
+
+cd ~/L
+sudo pacman -U *.pkg.tar.zst --noconfirm
+cd
+
 echo "
 ###############################################################################
 # Cloning essential repos
@@ -185,7 +198,7 @@ git clone https://github.com/cachyos/linux-cachyos.git
 git clone https://github.com/clangbuiltlinux/tc-build.git
 sleep 2
 cd /home/lulle/tc-build
-wget http://lullemannen.com/lullemannen/llvm.tar.zst
+wget http://lullemannen.com/llvm/llvm.tar.zst
 unzstd llvm.tar.zst
 tar xvf llvm.tar
 sleep 3
